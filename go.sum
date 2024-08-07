@@ -565,8 +565,6 @@ github.com/dymensionxyz/dymension-rdk v1.6.1-0.20240729074116-005f2bb6dd18 h1:LA
 github.com/dymensionxyz/dymension-rdk v1.6.1-0.20240729074116-005f2bb6dd18/go.mod h1:M7YD1jsbAUYlnpfE0cj0MP0esKI3J6NsrVFAit+Rx+8=
 github.com/dymensionxyz/dymension/v3 v3.1.0-rc03.0.20240411195658-f7cd96f53b56 h1:cmpJYdRviuUfmlJdHrcAND8Jd6JIY4rp63bWAQzPr54=
 github.com/dymensionxyz/dymension/v3 v3.1.0-rc03.0.20240411195658-f7cd96f53b56/go.mod h1:3Pfrr8j/BR9ztNKztGfC5PqDiO6CcrzMLCJtFtPEVW4=
-github.com/dymensionxyz/dymint v1.2.0-rc01 h1:zFHUXmy/07Bs7/qSRzGnGdRipgCm4GGAsoxF1+OCwS8=
-github.com/dymensionxyz/dymint v1.2.0-rc01/go.mod h1:8ECqxpdco6NOSBTJCcbcUeBGTQClc+JQnHmyc5+3vKU=
 github.com/dymensionxyz/evmos/v12 v12.1.6-dymension-v0.4.2 h1:aVP3off7u2vsvRH7lHAUPTLdf9/AfnzC/rvvi0wC/co=
 github.com/dymensionxyz/evmos/v12 v12.1.6-dymension-v0.4.2/go.mod h1:CI6D89pkoiIm4BjoMFNnEaCLdKBEobLuwvhS0c1zh7Y=
 github.com/dymensionxyz/gerr-cosmos v1.0.0 h1:oi91rgOkpJWr41oX9JOyjvvBnhGY54tj513x8VlDAEc=
@@ -1585,6 +1583,8 @@ github.com/warpfork/go-wish v0.0.0-20220906213052-39a1cc7a02d0/go.mod h1:x6AKhvS
 github.com/whyrusleeping/go-keyspace v0.0.0-20160322163242-5b898ac5add1 h1:EKhdznlJHPMoKr0XTrX+IlJs1LH3lyx2nfr1dOlZ79k=
 github.com/whyrusleeping/go-keyspace v0.0.0-20160322163242-5b898ac5add1/go.mod h1:8UvriyWtv5Q5EOgjHaSseUEdkQfvwFv1I/In/O2M9gc=
 github.com/willf/bitset v1.1.3/go.mod h1:RjeCKbqT1RxIR/KWY6phxZiaY1IyutSBfGjNPySAYV4=
+github.com/wuzhanfly/dymint v0.0.0-20240806101214-83078f543bb4 h1:MrGJ+5m5ee3WhLOK/3qe5B7hNtBJlfz4oXlyr3vEJ2g=
+github.com/wuzhanfly/dymint v0.0.0-20240806101214-83078f543bb4/go.mod h1:8ECqxpdco6NOSBTJCcbcUeBGTQClc+JQnHmyc5+3vKU=
 github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb h1:zGWFAtiMcyryUHoUjUJX0/lt1H2+i2Ka2n+D3DImSNo=
 github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb/go.mod h1:N2zxlSyiKSe5eX1tZViRH5QA0qijqEDrYZiPEAiq3wU=
 github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 h1:EzJWgHovont7NscjpAxXsDA8S8BMYve8Y5+7cuRE7R0=

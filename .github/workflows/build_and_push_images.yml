@@ -8,6 +8,7 @@ on:
     push:
         branches:
         - main
+        - dev
 
 permissions:
     contents: read
@@ -51,5 +52,5 @@ jobs:
             push: true
             platforms: linux/amd64
             tags: |
-                ghcr.io/dymensionxyz/rollapp-evm:latest
-                ghcr.io/dymensionxyz/rollapp-evm:${{ env.DOCKER_IMAGE_TAG }}
+                ghcr.io/wuzhanfly/rollapp-evm:latest
+                ghcr.io/wuzhanfly/rollapp-evm:${{ env.DOCKER_IMAGE_TAG }}
