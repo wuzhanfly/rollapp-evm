@@ -54,11 +54,13 @@ require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
 	github.com/btcsuite/btcd/btcutil v1.1.3 // indirect
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
-	github.com/celestiaorg/celestia-openrpc v0.4.0-rc.1 // indirect
+	github.com/celestiaorg/celestia-openrpc v0.4.1-0.20240826163012-baf4c0b6c915 // indirect
 	github.com/celestiaorg/go-fraud v0.2.0 // indirect
 	github.com/celestiaorg/go-header v0.4.1 // indirect
+	github.com/celestiaorg/go-square v1.0.1 // indirect
+	github.com/celestiaorg/go-square/merkle v0.0.0-20240429192549-dea967e1533b // indirect
 	github.com/celestiaorg/merkletree v0.0.0-20210714075610-a84dc3ddbbe4 // indirect
-	github.com/celestiaorg/nmt v0.20.0 // indirect
+	github.com/celestiaorg/nmt v0.21.0 // indirect
 	github.com/celestiaorg/rsmt2d v0.11.0 // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
@@ -89,7 +91,7 @@ require (
 	github.com/cskr/pubsub v1.0.2 // indirect
 	github.com/danieljoos/wincred v1.1.2 // indirect
 	github.com/danwt/gerr v1.0.0 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
 	github.com/deckarep/golang-set v1.8.0 // indirect
 	github.com/decred/base58 v1.0.4 // indirect
@@ -112,7 +114,7 @@ require (
 	github.com/edsrzf/mmap-go v1.0.0 // indirect
 	github.com/elastic/gosigar v0.14.2 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/filecoin-project/go-jsonrpc v0.3.1 // indirect
+	github.com/filecoin-project/go-jsonrpc v0.5.0 // indirect
 	github.com/flynn/noise v1.1.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
@@ -121,7 +123,7 @@ require (
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-kit/kit v0.12.0 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
-	github.com/go-logfmt/logfmt v0.5.1 // indirect
+	github.com/go-logfmt/logfmt v0.6.0 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -253,7 +255,7 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
 	github.com/petermattis/goid v0.0.0-20230317030725-371a4b8eda08 // indirect
 	github.com/pierrec/xxHash v0.1.5 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/polydawn/refmt v0.89.0 // indirect
 	github.com/prometheus/client_golang v1.18.0 // indirect
 	github.com/prometheus/client_model v0.6.0 // indirect
@@ -268,7 +270,7 @@ require (
 	github.com/regen-network/cosmos-proto v0.3.1 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/rjeczalik/notify v0.9.3 // indirect
-	github.com/rogpeppe/go-internal v1.11.0 // indirect
+	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/rs/cors v1.9.0 // indirect
 	github.com/rs/zerolog v1.29.1 // indirect
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
@@ -285,7 +287,7 @@ require (
 	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d // indirect
 	github.com/tendermint/go-amino v0.16.0 // indirect
 	github.com/tidwall/btree v1.5.0 // indirect
-	github.com/tidwall/gjson v1.14.4 // indirect
+	github.com/tidwall/gjson v1.17.1 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tidwall/sjson v1.2.5 // indirect
@@ -342,8 +344,8 @@ replace (
 	github.com/CosmWasm/wasmd => github.com/decentrio/wasmd v0.33.0-sdk46.2
 	github.com/centrifuge/go-substrate-rpc-client/v4 => github.com/availproject/go-substrate-rpc-client/v4 v4.0.12-avail-1.4.0-rc1-5e286e3
 	github.com/confio/ics23/go => github.com/cosmos/cosmos-sdk/ics23/go v0.8.0
-	github.com/dymensionxyz/dymension-rdk => ../dymension-rdk
-	github.com/dymensionxyz/dymint => ../dymint
+	github.com/dymensionxyz/dymension-rdk => github.com/dymensionxyz/dymension-rdk v1.6.1-0.20240825165101-e1fffd962a12
+	github.com/dymensionxyz/dymint => github.com/dymensionxyz/dymint v1.2.0-rc01.0.20240828122408-562f673df8c2
 	// use Evmos geth fork
 	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26
 	github.com/evmos/evmos/v12 => github.com/dymensionxyz/evmos/v12 v12.1.7-0.20240429132837-2dcb56724c6c
@@ -354,5 +356,6 @@ replace (
 	// replace broken goleveldb
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	// use cometbft
-	github.com/tendermint/tendermint => github.com/dymensionxyz/cometbft v0.34.29-0.20240827102743-fafae27f8527
+	github.com/tendermint/tendermint => github.com/dymensionxyz/cometbft v0.34.29-0.20240822095912-8f031e6a53af
+
 )
